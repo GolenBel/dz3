@@ -68,7 +68,7 @@ header span {
 
 .about-section .wrapper {
     display: flex;
-    gap: 16px;
+    gap: 60px;
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
 }
 
@@ -126,7 +126,7 @@ select:hover,
 }    
 
 .skills {
-    gap: 16px;
+    gap: 20px;
 }
 
 .books-list {
@@ -168,7 +168,7 @@ form {
 }
 
 .btn:hover {
-    /* 📍 Стили для кнопки при наведении курсора */
+    cursor: pointer;
 }
 
 .line {
@@ -190,7 +190,7 @@ th, td {
 footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
-    /* 📍 Свойство для расположения ссылки горизонтально по центру */
+    text-align: center;
 }
 
 .footer-link {
@@ -201,5 +201,5 @@ footer {
 }
 
 .footer-link:hover {
-    /* 📍 Стили для ссылки при наведении курсора */
+    cursor: pointer;
 }
